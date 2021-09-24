@@ -22,6 +22,7 @@ const getSourceGlosses = () => {
         if (glossPiece !== "null") {
           return { position: position, glossText: glossPiece };
         }
+        return null;
       })
       .filter(Boolean);
   }
