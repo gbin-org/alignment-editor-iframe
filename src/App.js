@@ -28,9 +28,9 @@ const getSourceGlosses = () => {
   }
 };
 
-const getLinks = () => {
+const getLinks = (type) => {
   const url = new URL(window.location.href);
-  const links = url.searchParams.get(`links`);
+  const links = url.searchParams.get(type);
   if (links) {
     return links.split("|").map((linkText) => {
       const parts = linkText.split(":");
@@ -50,7 +50,8 @@ function App() {
           sourceGlosses={getSourceGlosses()}
           sourceSegments={getText("source")}
           targetSegments={getText("target")}
-          userLinks={getLinks()}
+          userLinks={getLinks("seed")}
+          answer={getLinks("answer")}
           stateUpdatedHook={(a) => {
             console.log("STATE UPDATED", a);
           }}

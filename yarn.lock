@@ -2643,14 +2643,15 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-alignment-editor-rcl@^0.2.25:
-  version "0.2.25"
-  resolved "https://registry.yarnpkg.com/alignment-editor-rcl/-/alignment-editor-rcl-0.2.25.tgz#cc114dec22dd63f332ee43dde7432ddc590ec25e"
-  integrity sha512-NGSXE+Cui3fUEAJfuytNijXVEN2dF/tYQFxh5Oev769+qfgRA2FtJ0ZgaB0FJv3ZFr4XyFE5XJ9hDR8vf/9+HQ==
+alignment-editor-rcl@^0.2.26:
+  version "0.2.26"
+  resolved "https://registry.yarnpkg.com/alignment-editor-rcl/-/alignment-editor-rcl-0.2.26.tgz#0334f6475161aa045b48c95dab28373614fef59a"
+  integrity sha512-CE7f9+ixWtjtPVAmMVizefkWcq7C52nkq8s6V8b8EpPNGaZeqUJ9VEVOlsxXMI9Zf90HgQcu315RdJyATbX0Ng==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
     "@fortawesome/free-solid-svg-icons" "^5.15.1"
     "@fortawesome/react-fontawesome" "^0.1.11"
+    lodash "^4.17.21"
 
 alphanum-sort@^1.0.0:
   version "1.0.2"
@@ -7527,7 +7528,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
-lodash@^4.17.19, lodash@^4.7.0:
+lodash@^4.17.19, lodash@^4.17.21, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
