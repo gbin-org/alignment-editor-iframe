@@ -43,7 +43,7 @@ const getLinks = (type) => {
 
 function App() {
   return (
-    <div style={{ width: "500px", overflow: "hidden" }}>
+    <div style={{ minWidth: "500px", overflow: "hidden" }}>
       <AlignmentProvider>
         <AlignmentEditor
           defaultView="line"
